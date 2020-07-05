@@ -14,6 +14,7 @@
 		C90D808C2481D5CE008086AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C90D808B2481D5CE008086AB /* Assets.xcassets */; };
 		C90D808F2481D5CE008086AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C90D808D2481D5CE008086AB /* LaunchScreen.storyboard */; };
 		C9D6B87624A7AA250061ADF7 /* ChecklistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D6B87524A7AA250061ADF7 /* ChecklistItem.swift */; };
+		C9D6B87824B262460061ADF7 /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D6B87724B262460061ADF7 /* AddItemViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		C90D808E2481D5CE008086AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C90D80902481D5CE008086AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9D6B87524A7AA250061ADF7 /* ChecklistItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistItem.swift; sourceTree = "<group>"; };
+		C9D6B87724B262460061ADF7 /* AddItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				C90D808D2481D5CE008086AB /* LaunchScreen.storyboard */,
 				C90D80902481D5CE008086AB /* Info.plist */,
 				C9D6B87524A7AA250061ADF7 /* ChecklistItem.swift */,
+				C9D6B87724B262460061ADF7 /* AddItemViewController.swift */,
 			);
 			path = Checklists;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9D6B87824B262460061ADF7 /* AddItemViewController.swift in Sources */,
 				C90D80872481D5CD008086AB /* ChecklistViewController.swift in Sources */,
 				C90D80832481D5CD008086AB /* AppDelegate.swift in Sources */,
 				C90D80852481D5CD008086AB /* SceneDelegate.swift in Sources */,
